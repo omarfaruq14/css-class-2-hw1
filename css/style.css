@@ -1,0 +1,96 @@
+.card{
+    background: lightblue;
+    width: 400px;
+    padding: 20px 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px auto;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.main{ 
+    margin: auto;
+    width: fit-content;
+}
+
+.card h2 span{
+    color: rgb(226, 59, 96);
+}
+
+.card h2{
+    
+    text-align: center;
+    font-size: 40px;
+    
+}
+    
+.card p span{
+    color: red;
+    font-size: 30px;
+}
+.card a { 
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: rgb(252, 252, 252);
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 40px;
+    
+}
+
+.circle{
+    border-radius: 20px;
+    background-image: url(../autumn.webp);
+    background-size: cover;
+    background-position: right;
+}
+.circle h2 span{
+    color: skyblue;
+}
+
+
+.circle2{
+    border-radius: 20px;
+    background-image: url(https://thumbs.dreamstime.com/z/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg?w=992);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.circle2 h2 span{
+    color: dodgerblue;
+    
+}
+.circle2 h2{
+    color: black;
+}
+
+.circle2 a{
+    background-color: orangered;
+}
+
+
+.card2{
+    border-radius: 20px;
+    color: darkturquoise;
+    background-image: linear-gradient(to left, rgb(22, 14, 14),  rgb(221, 110, 6));
+
+}
+.card2 h2{
+    
+    color: rgb(0, 0, 0);
+}
+
+.card3{
+    border-radius: 20px;
+    color: white;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.card3 h2 span{
+    color: dodgerblue;
+}
